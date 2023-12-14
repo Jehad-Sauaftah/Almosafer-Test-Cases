@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="almosaferProjectPSUT.almosaferTestCases">
+      <class name="almosaferProject.almosaferTestCases">
         <methods>
-          <include name="postTesting"/>
-          <include name="selectNumberOfRooms"/>
+          <include name="checkWebsiteCurrency"/>
           <include name="setUp"/>
+          <include name="postTesting"/>
+          <include name="checkWebsiteContactNumber"/>
         </methods>
-      </class> <!-- almosaferProjectPSUT.almosaferTestCases -->
+      </class> <!-- almosaferProject.almosaferTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

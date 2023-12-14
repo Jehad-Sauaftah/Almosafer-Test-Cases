@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="9" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-07T21:14:02 EET" name="Default suite" finished-at="2023-12-07T21:14:09 EET" duration-ms="6814">
+  <suite started-at="2023-12-15T00:43:53 EET" name="Default suite" finished-at="2023-12-15T00:44:17 EET" duration-ms="24606">
     <groups>
     </groups>
-    <test started-at="2023-12-07T21:14:02 EET" name="Default test" finished-at="2023-12-07T21:14:09 EET" duration-ms="6814">
+    <test started-at="2023-12-15T00:43:53 EET" name="Default test" finished-at="2023-12-15T00:44:17 EET" duration-ms="24606">
       <class name="almosaferProject.almosaferTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:almosaferProject.almosaferTestCases@263f04ca]" started-at="2023-12-07T21:14:02 EET" name="setUp" finished-at="2023-12-07T21:14:05 EET" duration-ms="2904" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:almosaferProject.almosaferTestCases@6ab72419]" started-at="2023-12-15T00:43:53 EET" name="setUp" finished-at="2023-12-15T00:43:56 EET" duration-ms="3155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="chooseFirstAutocompleteResult()[pri:0, instance:almosaferProject.almosaferTestCases@263f04ca]" started-at="2023-12-07T21:14:05 EET" name="chooseFirstAutocompleteResult" finished-at="2023-12-07T21:14:06 EET" duration-ms="1334" status="PASS">
+        <test-method signature="checkWebsiteLanguage()[pri:1, instance:almosaferProject.almosaferTestCases@6ab72419]" started-at="2023-12-15T00:43:56 EET" name="checkWebsiteLanguage" description="Check if the default language is English" finished-at="2023-12-15T00:43:56 EET" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chooseFirstAutocompleteResult -->
-        <test-method signature="selectNumberOfRoomsAndSearch()[pri:0, instance:almosaferProject.almosaferTestCases@263f04ca]" started-at="2023-12-07T21:14:06 EET" name="selectNumberOfRoomsAndSearch" finished-at="2023-12-07T21:14:09 EET" duration-ms="2537" status="PASS">
+        </test-method> <!-- checkWebsiteLanguage -->
+        <test-method signature="checkWebsiteCurrency()[pri:2, instance:almosaferProject.almosaferTestCases@6ab72419]" started-at="2023-12-15T00:43:56 EET" name="checkWebsiteCurrency" description="Check if the default currency is SAR" finished-at="2023-12-15T00:43:56 EET" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectNumberOfRoomsAndSearch -->
-        <test-method is-config="true" signature="postTesting()[pri:0, instance:almosaferProject.almosaferTestCases@263f04ca]" started-at="2023-12-07T21:14:09 EET" name="postTesting" finished-at="2023-12-07T21:14:09 EET" duration-ms="1" status="PASS">
+        </test-method> <!-- checkWebsiteCurrency -->
+        <test-method signature="checkWebsiteContactNumber()[pri:3, instance:almosaferProject.almosaferTestCases@6ab72419]" started-at="2023-12-15T00:43:56 EET" name="checkWebsiteContactNumber" description="Check if the contact number is correct" finished-at="2023-12-15T00:43:56 EET" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWebsiteContactNumber -->
+        <test-method signature="checkQitafLogoDisplay()[pri:4, instance:almosaferProject.almosaferTestCases@6ab72419]" started-at="2023-12-15T00:43:56 EET" name="checkQitafLogoDisplay" description="Check if qitaf logo is displayed in the footer" finished-at="2023-12-15T00:43:56 EET" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkQitafLogoDisplay -->
+        <test-method signature="checkHotelsTapSelection()[pri:5, instance:almosaferProject.almosaferTestCases@6ab72419]" started-at="2023-12-15T00:43:56 EET" name="checkHotelsTapSelection" description="Check if hotel tap is NOT selected by default" finished-at="2023-12-15T00:43:56 EET" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHotelsTapSelection -->
+        <test-method signature="checkDeapartureAndArrivalDate()[pri:6, instance:almosaferProject.almosaferTestCases@6ab72419]" started-at="2023-12-15T00:43:56 EET" name="checkDeapartureAndArrivalDate" description="Check if flight departure and arrival dates are correct" finished-at="2023-12-15T00:43:57 EET" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeapartureAndArrivalDate -->
+        <test-method signature="checkSearchHotelsProcess()[pri:7, instance:almosaferProject.almosaferTestCases@6ab72419]" started-at="2023-12-15T00:43:57 EET" name="checkSearchHotelsProcess" description="Check searching for hotels process randomly on English and Arabic website" finished-at="2023-12-15T00:44:17 EET" duration-ms="20967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearchHotelsProcess -->
+        <test-method is-config="true" signature="postTesting()[pri:0, instance:almosaferProject.almosaferTestCases@6ab72419]" started-at="2023-12-15T00:44:17 EET" name="postTesting" finished-at="2023-12-15T00:44:17 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postTesting -->
