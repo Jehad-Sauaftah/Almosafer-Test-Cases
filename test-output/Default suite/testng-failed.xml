@@ -6,8 +6,13 @@
       <class name="almosaferProject.almosaferTestCases">
         <methods>
           <include name="checkWebsiteCurrency"/>
+          <include name="checkQitafLogoDisplay"/>
+          <include name="checkSearchHotelsProcess"/>
+          <include name="checkWebsiteLanguage"/>
+          <include name="checkHotelsTapSelection"/>
           <include name="setUp"/>
           <include name="postTesting"/>
+          <include name="checkDeapartureAndArrivalDate"/>
           <include name="checkWebsiteContactNumber"/>
         </methods>
       </class> <!-- almosaferProject.almosaferTestCases -->

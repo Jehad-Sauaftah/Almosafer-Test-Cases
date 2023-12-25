@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [almosaferSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="firefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="almosaferProject.almosaferTestCases">
+        <methods>
+          <include name="checkSearchHotelsProcess" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="postTesting"/>
+        </methods>
+      </class> <!-- almosaferProject.almosaferTestCases -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [almosaferSuite] -->
