@@ -1,5 +1,3 @@
-# Almosafer-Test-Cases
-
 # Almosafer Project Test Automation
 
 This project contains automated test cases for the Almosafer website using Selenium WebDriver and TestNG.
